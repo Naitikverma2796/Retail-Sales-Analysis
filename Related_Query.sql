@@ -83,7 +83,7 @@ SELECT COUNT(*) as total_sale FROM retail_sales
 
 -- How many uniuque customers we have ?
 
-SELECT COUNT(DISTINCT customer_id) as total_sale FROM retail_sales
+SELECT COUNT(DISTINCT customer_id) as unique_constumers FROM retail_sales
 
 
 
